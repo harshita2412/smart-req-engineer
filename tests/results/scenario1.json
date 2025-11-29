@@ -1,0 +1,45 @@
+{
+  "parsed": {
+    "actions": [
+      {
+        "action": "create"
+      },
+      {
+        "action": "read"
+      }
+    ],
+    "deadlines": [],
+    "entities": [
+      "users",
+      "notes"
+    ]
+  },
+  "conflicts": [],
+  "api": {
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Generated API",
+      "version": "0.1"
+    },
+    "paths": {
+      "/items": {
+        "post": {
+          "description": "Create item",
+          "responses": {
+            "201": {
+              "description": "Created"
+            }
+          }
+        },
+        "get": {
+          "description": "List items",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+    }
+  }
+}

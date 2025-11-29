@@ -1,0 +1,22 @@
+{
+  "scenario1.txt": {
+    "parsed": 3,
+    "conflicts": 0,
+    "api_paths": 1
+  },
+  "scenario2.txt": {
+    "parsed": 3,
+    "conflicts": 0,
+    "api_paths": 1
+  },
+  "scenario3.txt": {
+    "parsed": 3,
+    "conflicts": 1,
+    "api_paths": 1
+  },
+  "scenario4.txt": {
+    "parsed": 3,
+    "conflicts": 0,
+    "api_paths": 0
+  }
+}

@@ -1,0 +1,1 @@
+﻿Users can create notes. Users should be able to read them later.

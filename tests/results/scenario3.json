@@ -1,0 +1,46 @@
+{
+  "parsed": {
+    "actions": [
+      {
+        "action": "read"
+      },
+      {
+        "action": "delete"
+      }
+    ],
+    "deadlines": [],
+    "entities": [
+      "documents"
+    ]
+  },
+  "conflicts": [
+    "Cannot read and delete the same resource in the same requirement."
+  ],
+  "api": {
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Generated API",
+      "version": "0.1"
+    },
+    "paths": {
+      "/items": {
+        "get": {
+          "description": "List items",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        },
+        "delete": {
+          "description": "Delete item",
+          "responses": {
+            "204": {
+              "description": "No Content"
+            }
+          }
+        }
+      }
+    }
+  }
+}

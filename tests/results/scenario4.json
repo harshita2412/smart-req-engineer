@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "actions": [],
+    "deadlines": [
+      {
+        "value": 0,
+        "unit": "day"
+      }
+    ],
+    "entities": []
+  },
+  "conflicts": [],
+  "api": {
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Generated API",
+      "version": "0.1"
+    },
+    "paths": {}
+  }
+}
