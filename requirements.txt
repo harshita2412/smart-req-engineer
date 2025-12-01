@@ -1,3 +1,7 @@
+﻿fastapi
 uvicorn[standard]
-fastapi
 pydantic
+httpx
+pytest
+python-dotenv
+prometheus_client
